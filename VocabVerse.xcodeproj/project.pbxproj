@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0369982ABF01C700BF00E4 /* LearningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0369972ABF01C700BF00E4 /* LearningListView.swift */; };
+		0F03699A2ABF020000BF00E4 /* LearningListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0369992ABF020000BF00E4 /* LearningListFeature.swift */; };
+		0F03699D2ABF070300BF00E4 /* CategorySelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03699C2ABF070300BF00E4 /* CategorySelectView.swift */; };
+		0F03699F2ABF088A00BF00E4 /* CategorySelectFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F03699E2ABF088A00BF00E4 /* CategorySelectFeature.swift */; };
+		0F3A26112A91070C0086D6C5 /* VocabVerseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A26102A91070C0086D6C5 /* VocabVerseApp.swift */; };
+		0F3A26152A91070D0086D6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A26142A91070D0086D6C5 /* Assets.xcassets */; };
+		0F3A26182A91070D0086D6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A26172A91070D0086D6C5 /* Preview Assets.xcassets */; };
+		0F3A26232A9110790086D6C5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 0F3A26222A9110790086D6C5 /* ComposableArchitecture */; };
+		0F3A26252A9110DE0086D6C5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A26242A9110DE0086D6C5 /* Models.swift */; };
+		0F3A262B2A91F73C0086D6C5 /* WordsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A262A2A91F73C0086D6C5 /* WordsListView.swift */; };
+		0F3A262D2A91F74A0086D6C5 /* WordsListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A262C2A91F74A0086D6C5 /* WordsListFeature.swift */; };
+		0F3A26302A91F83F0086D6C5 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A262F2A91F83F0086D6C5 /* WordCardView.swift */; };
+		0F3A26322A91FE6F0086D6C5 /* MockModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A26312A91FE6F0086D6C5 /* MockModels.swift */; };
+		0F3A26352A92444D0086D6C5 /* WordFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A26342A92444D0086D6C5 /* WordFormView.swift */; };
+		0F3A26372A92445A0086D6C5 /* WordFormFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A26362A92445A0086D6C5 /* WordFormFeature.swift */; };
+		0F3A500B2A93AC1A0086D6C5 /* VocabVerseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A500A2A93AC1A0086D6C5 /* VocabVerseTests.swift */; };
+		0F3A50112A93AC210086D6C5 /* WordFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A50002A93A6270086D6C5 /* WordFormTests.swift */; };
+		0F3A50122A93AC260086D6C5 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A50022A93A6D00086D6C5 /* WordListTests.swift */; };
+		0F63A2422ACBDAEA00152CC3 /* CorrectWritingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63A2412ACBDAEA00152CC3 /* CorrectWritingFeature.swift */; };
+		0F63A2442ACBDB0600152CC3 /* CorrectWritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63A2432ACBDB0600152CC3 /* CorrectWritingView.swift */; };
+		0F63D1062ACD37D500152CC3 /* StateClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63D1052ACD37D500152CC3 /* StateClient.swift */; };
+		0F63D1082ACD658F00152CC3 /* CorrectWritingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F63D1072ACD658F00152CC3 /* CorrectWritingTests.swift */; };
+		0FA195752AA32AE100255F3A /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA195742AA32AE100255F3A /* FlashCardsView.swift */; };
+		0FA195772AA32AE900255F3A /* FlashCardsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA195762AA32AE900255F3A /* FlashCardsFeature.swift */; };
+		0FA1957B2AA389A400255F3A /* LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1957A2AA389A400255F3A /* LearningTests.swift */; };
+		0FA195802AA4744E00255F3A /* CategoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1957F2AA4744E00255F3A /* CategoryClient.swift */; };
+		0FA195832AA4767400255F3A /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA195822AA4767400255F3A /* CategoryListView.swift */; };
+		0FA195852AA4767E00255F3A /* CategoryListFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA195842AA4767E00255F3A /* CategoryListFeature.swift */; };
+		0FA195892AA47F3500255F3A /* CategoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA195882AA47F3500255F3A /* CategoryFormView.swift */; };
+		0FA1958B2AA47F4000255F3A /* CategoryFormFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1958A2AA47F4000255F3A /* CategoryFormFeature.swift */; };
+		0FAF48FD2A9B8B35007D6EB8 /* Category.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF48FB2A9B8B35007D6EB8 /* Category.xcdatamodeld */; };
+		0FAF48FF2A9B94D1007D6EB8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF48FE2A9B94D1007D6EB8 /* CoreDataManager.swift */; };
+		0FB62FC12AC85A0C000679A9 /* LearningListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB62FC02AC85A0C000679A9 /* LearningListTests.swift */; };
+		0FD391412A99FB5800F63FFE /* RootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD391402A99FB5800F63FFE /* RootTests.swift */; };
+		0FE760DB2A97AAA000413584 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE760DA2A97AAA000413584 /* AppView.swift */; };
+		0FE78AFB2A98EA4100413584 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE78AFA2A98EA4100413584 /* AppFeature.swift */; };
+		0FF3AAD22AADE56E00634E00 /* CategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF3AAD12AADE56E00634E00 /* CategoryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3A500C2A93AC1A0086D6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3A26052A91070C0086D6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3A260C2A91070C0086D6C5;
+			remoteInfo = VocabVerse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0369972ABF01C700BF00E4 /* LearningListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningListView.swift; sourceTree = "<group>"; };
+		0F0369992ABF020000BF00E4 /* LearningListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningListFeature.swift; sourceTree = "<group>"; };
+		0F03699C2ABF070300BF00E4 /* CategorySelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectView.swift; sourceTree = "<group>"; };
+		0F03699E2ABF088A00BF00E4 /* CategorySelectFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectFeature.swift; sourceTree = "<group>"; };
+		0F3A260D2A91070C0086D6C5 /* VocabVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3A26102A91070C0086D6C5 /* VocabVerseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabVerseApp.swift; sourceTree = "<group>"; };
+		0F3A26142A91070D0086D6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F3A26172A91070D0086D6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F3A26242A9110DE0086D6C5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		0F3A262A2A91F73C0086D6C5 /* WordsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListView.swift; sourceTree = "<group>"; };
+		0F3A262C2A91F74A0086D6C5 /* WordsListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListFeature.swift; sourceTree = "<group>"; };
+		0F3A262F2A91F83F0086D6C5 /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
+		0F3A26312A91FE6F0086D6C5 /* MockModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModels.swift; sourceTree = "<group>"; };
+		0F3A26342A92444D0086D6C5 /* WordFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormView.swift; sourceTree = "<group>"; };
+		0F3A26362A92445A0086D6C5 /* WordFormFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormFeature.swift; sourceTree = "<group>"; };
+		0F3A50002A93A6270086D6C5 /* WordFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordFormTests.swift; sourceTree = "<group>"; };
+		0F3A50022A93A6D00086D6C5 /* WordListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListTests.swift; sourceTree = "<group>"; };
+		0F3A50082A93AC1A0086D6C5 /* VocabVerseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabVerseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3A500A2A93AC1A0086D6C5 /* VocabVerseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabVerseTests.swift; sourceTree = "<group>"; };
+		0F63A2412ACBDAEA00152CC3 /* CorrectWritingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectWritingFeature.swift; sourceTree = "<group>"; };
+		0F63A2432ACBDB0600152CC3 /* CorrectWritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectWritingView.swift; sourceTree = "<group>"; };
+		0F63D1052ACD37D500152CC3 /* StateClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateClient.swift; sourceTree = "<group>"; };
+		0F63D1072ACD658F00152CC3 /* CorrectWritingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectWritingTests.swift; sourceTree = "<group>"; };
+		0FA195742AA32AE100255F3A /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		0FA195762AA32AE900255F3A /* FlashCardsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsFeature.swift; sourceTree = "<group>"; };
+		0FA1957A2AA389A400255F3A /* LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTests.swift; sourceTree = "<group>"; };
+		0FA1957F2AA4744E00255F3A /* CategoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryClient.swift; sourceTree = "<group>"; };
+		0FA195822AA4767400255F3A /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		0FA195842AA4767E00255F3A /* CategoryListFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListFeature.swift; sourceTree = "<group>"; };
+		0FA195882AA47F3500255F3A /* CategoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFormView.swift; sourceTree = "<group>"; };
+		0FA1958A2AA47F4000255F3A /* CategoryFormFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFormFeature.swift; sourceTree = "<group>"; };
+		0FAF48FC2A9B8B35007D6EB8 /* Word.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Word.xcdatamodel; sourceTree = "<group>"; };
+		0FAF48FE2A9B94D1007D6EB8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0FB62FC02AC85A0C000679A9 /* LearningListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningListTests.swift; sourceTree = "<group>"; };
+		0FD391402A99FB5800F63FFE /* RootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTests.swift; sourceTree = "<group>"; };
+		0FE760DA2A97AAA000413584 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0FE78AFA2A98EA4100413584 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		0FF3AAD12AADE56E00634E00 /* CategoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3A260A2A91070C0086D6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3A26232A9110790086D6C5 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3A50052A93AC1A0086D6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0369962ABD76A700BF00E4 /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				0FA195762AA32AE900255F3A /* FlashCardsFeature.swift */,
+				0FA195742AA32AE100255F3A /* FlashCardsView.swift */,
+			);
+			path = FlashCards;
+			sourceTree = "<group>";
+		};
+		0F03699B2ABF06ED00BF00E4 /* CategoryListForm */ = {
+			isa = PBXGroup;
+			children = (
+				0F03699C2ABF070300BF00E4 /* CategorySelectView.swift */,
+				0F03699E2ABF088A00BF00E4 /* CategorySelectFeature.swift */,
+			);
+			path = CategoryListForm;
+			sourceTree = "<group>";
+		};
+		0F3A26042A91070C0086D6C5 = {
+			isa = PBXGroup;
+			children = (
+				0F3A4FFE2A93A58E0086D6C5 /* VocabVerseTests */,
+				0F3A260F2A91070C0086D6C5 /* VocabVerse */,
+				0F3A50092A93AC1A0086D6C5 /* VocabVerseTests */,
+				0F3A260E2A91070C0086D6C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F3A260E2A91070C0086D6C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A260D2A91070C0086D6C5 /* VocabVerse.app */,
+				0F3A50082A93AC1A0086D6C5 /* VocabVerseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3A260F2A91070C0086D6C5 /* VocabVerse */ = {
+			isa = PBXGroup;
+			children = (
+				0FF3AAD32AAE040100634E00 /* Features */,
+				0FAF48FA2A9B8B17007D6EB8 /* Storage */,
+				0FAF48F72A9B88ED007D6EB8 /* Dependencies */,
+				0FE760D92A97AA9700413584 /* App */,
+				0F3A26262A91F6F20086D6C5 /* Models */,
+				0F3A26102A91070C0086D6C5 /* VocabVerseApp.swift */,
+				0F3A26142A91070D0086D6C5 /* Assets.xcassets */,
+				0F3A26162A91070D0086D6C5 /* Preview Content */,
+			);
+			path = VocabVerse;
+			sourceTree = "<group>";
+		};
+		0F3A26162A91070D0086D6C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A26172A91070D0086D6C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F3A26262A91F6F20086D6C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A26242A9110DE0086D6C5 /* Models.swift */,
+				0F3A26312A91FE6F0086D6C5 /* MockModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F3A26292A91F7170086D6C5 /* WordList */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A26332A91FF920086D6C5 /* WordForm */,
+				0F3A262E2A91F8300086D6C5 /* Views */,
+				0F3A262A2A91F73C0086D6C5 /* WordsListView.swift */,
+				0F3A262C2A91F74A0086D6C5 /* WordsListFeature.swift */,
+			);
+			path = WordList;
+			sourceTree = "<group>";
+		};
+		0F3A262E2A91F8300086D6C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A262F2A91F83F0086D6C5 /* WordCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F3A26332A91FF920086D6C5 /* WordForm */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A26342A92444D0086D6C5 /* WordFormView.swift */,
+				0F3A26362A92445A0086D6C5 /* WordFormFeature.swift */,
+			);
+			path = WordForm;
+			sourceTree = "<group>";
+		};
+		0F3A4FFE2A93A58E0086D6C5 /* VocabVerseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A50002A93A6270086D6C5 /* WordFormTests.swift */,
+				0F3A50022A93A6D00086D6C5 /* WordListTests.swift */,
+				0FD391402A99FB5800F63FFE /* RootTests.swift */,
+				0FA1957A2AA389A400255F3A /* LearningTests.swift */,
+				0FF3AAD12AADE56E00634E00 /* CategoryTests.swift */,
+				0FB62FC02AC85A0C000679A9 /* LearningListTests.swift */,
+				0F63D1072ACD658F00152CC3 /* CorrectWritingTests.swift */,
+			);
+			path = VocabVerseTests;
+			sourceTree = "<group>";
+		};
+		0F3A50092A93AC1A0086D6C5 /* VocabVerseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A500A2A93AC1A0086D6C5 /* VocabVerseTests.swift */,
+			);
+			path = VocabVerseTests;
+			sourceTree = "<group>";
+		};
+		0F63A2402ACBDADB00152CC3 /* CorrectWriting */ = {
+			isa = PBXGroup;
+			children = (
+				0F63A2412ACBDAEA00152CC3 /* CorrectWritingFeature.swift */,
+				0F63A2432ACBDB0600152CC3 /* CorrectWritingView.swift */,
+			);
+			path = CorrectWriting;
+			sourceTree = "<group>";
+		};
+		0FA195732AA32A7D00255F3A /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				0F03699B2ABF06ED00BF00E4 /* CategoryListForm */,
+				0F0369972ABF01C700BF00E4 /* LearningListView.swift */,
+				0F0369992ABF020000BF00E4 /* LearningListFeature.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		0FA195812AA4766300255F3A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0FA195872AA47F2A00255F3A /* CategoryForm */,
+				0FA195822AA4767400255F3A /* CategoryListView.swift */,
+				0FA195842AA4767E00255F3A /* CategoryListFeature.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0FA195872AA47F2A00255F3A /* CategoryForm */ = {
+			isa = PBXGroup;
+			children = (
+				0FA195882AA47F3500255F3A /* CategoryFormView.swift */,
+				0FA1958A2AA47F4000255F3A /* CategoryFormFeature.swift */,
+			);
+			path = CategoryForm;
+			sourceTree = "<group>";
+		};
+		0FAF48F72A9B88ED007D6EB8 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				0FA1957F2AA4744E00255F3A /* CategoryClient.swift */,
+				0F63D1052ACD37D500152CC3 /* StateClient.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		0FAF48FA2A9B8B17007D6EB8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				0FAF48FB2A9B8B35007D6EB8 /* Category.xcdatamodeld */,
+				0FAF48FE2A9B94D1007D6EB8 /* CoreDataManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		0FE760D92A97AA9700413584 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0FE760DA2A97AAA000413584 /* AppView.swift */,
+				0FE78AFA2A98EA4100413584 /* AppFeature.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0FF3AAD32AAE040100634E00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0F63A2402ACBDADB00152CC3 /* CorrectWriting */,
+				0F3A26292A91F7170086D6C5 /* WordList */,
+				0F0369962ABD76A700BF00E4 /* FlashCards */,
+				0FA195732AA32A7D00255F3A /* Learning */,
+				0FA195812AA4766300255F3A /* Categories */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F3A260C2A91070C0086D6C5 /* VocabVerse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3A261B2A91070D0086D6C5 /* Build configuration list for PBXNativeTarget "VocabVerse" */;
+			buildPhases = (
+				0F3A26092A91070C0086D6C5 /* Sources */,
+				0F3A260A2A91070C0086D6C5 /* Frameworks */,
+				0F3A260B2A91070C0086D6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocabVerse;
+			packageProductDependencies = (
+				0F3A26222A9110790086D6C5 /* ComposableArchitecture */,
+			);
+			productName = VocabVerse;
+			productReference = 0F3A260D2A91070C0086D6C5 /* VocabVerse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F3A50072A93AC1A0086D6C5 /* VocabVerseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3A500E2A93AC1A0086D6C5 /* Build configuration list for PBXNativeTarget "VocabVerseTests" */;
+			buildPhases = (
+				0F3A50042A93AC1A0086D6C5 /* Sources */,
+				0F3A50052A93AC1A0086D6C5 /* Frameworks */,
+				0F3A50062A93AC1A0086D6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3A500D2A93AC1A0086D6C5 /* PBXTargetDependency */,
+			);
+			name = VocabVerseTests;
+			productName = VocabVerseTests;
+			productReference = 0F3A50082A93AC1A0086D6C5 /* VocabVerseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3A26052A91070C0086D6C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0F3A260C2A91070C0086D6C5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0F3A50072A93AC1A0086D6C5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0F3A260C2A91070C0086D6C5;
+					};
+				};
+			};
+			buildConfigurationList = 0F3A26082A91070C0086D6C5 /* Build configuration list for PBXProject "VocabVerse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F3A26042A91070C0086D6C5;
+			packageReferences = (
+				0F3A26212A9110790086D6C5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 0F3A260E2A91070C0086D6C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3A260C2A91070C0086D6C5 /* VocabVerse */,
+				0F3A50072A93AC1A0086D6C5 /* VocabVerseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F3A260B2A91070C0086D6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3A26182A91070D0086D6C5 /* Preview Assets.xcassets in Resources */,
+				0F3A26152A91070D0086D6C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3A50062A93AC1A0086D6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3A26092A91070C0086D6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F03699A2ABF020000BF00E4 /* LearningListFeature.swift in Sources */,
+				0F3A26352A92444D0086D6C5 /* WordFormView.swift in Sources */,
+				0F3A26302A91F83F0086D6C5 /* WordCardView.swift in Sources */,
+				0F3A26112A91070C0086D6C5 /* VocabVerseApp.swift in Sources */,
+				0F3A262D2A91F74A0086D6C5 /* WordsListFeature.swift in Sources */,
+				0F03699F2ABF088A00BF00E4 /* CategorySelectFeature.swift in Sources */,
+				0FA195852AA4767E00255F3A /* CategoryListFeature.swift in Sources */,
+				0F0369982ABF01C700BF00E4 /* LearningListView.swift in Sources */,
+				0F3A26372A92445A0086D6C5 /* WordFormFeature.swift in Sources */,
+				0FA195892AA47F3500255F3A /* CategoryFormView.swift in Sources */,
+				0FE760DB2A97AAA000413584 /* AppView.swift in Sources */,
+				0FA195802AA4744E00255F3A /* CategoryClient.swift in Sources */,
+				0FE78AFB2A98EA4100413584 /* AppFeature.swift in Sources */,
+				0FA195772AA32AE900255F3A /* FlashCardsFeature.swift in Sources */,
+				0F63A2422ACBDAEA00152CC3 /* CorrectWritingFeature.swift in Sources */,
+				0FA195832AA4767400255F3A /* CategoryListView.swift in Sources */,
+				0FA1958B2AA47F4000255F3A /* CategoryFormFeature.swift in Sources */,
+				0FAF48FF2A9B94D1007D6EB8 /* CoreDataManager.swift in Sources */,
+				0F3A26322A91FE6F0086D6C5 /* MockModels.swift in Sources */,
+				0F3A262B2A91F73C0086D6C5 /* WordsListView.swift in Sources */,
+				0FAF48FD2A9B8B35007D6EB8 /* Category.xcdatamodeld in Sources */,
+				0F03699D2ABF070300BF00E4 /* CategorySelectView.swift in Sources */,
+				0F63D1062ACD37D500152CC3 /* StateClient.swift in Sources */,
+				0FA195752AA32AE100255F3A /* FlashCardsView.swift in Sources */,
+				0F63A2442ACBDB0600152CC3 /* CorrectWritingView.swift in Sources */,
+				0F3A26252A9110DE0086D6C5 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3A50042A93AC1A0086D6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3A500B2A93AC1A0086D6C5 /* VocabVerseTests.swift in Sources */,
+				0FD391412A99FB5800F63FFE /* RootTests.swift in Sources */,
+				0F3A50112A93AC210086D6C5 /* WordFormTests.swift in Sources */,
+				0FF3AAD22AADE56E00634E00 /* CategoryTests.swift in Sources */,
+				0F3A50122A93AC260086D6C5 /* WordListTests.swift in Sources */,
+				0F63D1082ACD658F00152CC3 /* CorrectWritingTests.swift in Sources */,
+				0FA1957B2AA389A400255F3A /* LearningTests.swift in Sources */,
+				0FB62FC12AC85A0C000679A9 /* LearningListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3A500D2A93AC1A0086D6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3A260C2A91070C0086D6C5 /* VocabVerse */;
+			targetProxy = 0F3A500C2A93AC1A0086D6C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3A26192A91070D0086D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F3A261A2A91070D0086D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F3A261C2A91070D0086D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabVerse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderZakharov.VocabVerse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F3A261D2A91070D0086D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabVerse/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderZakharov.VocabVerse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F3A500F2A93AC1A0086D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderZakharov.VocabVerseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabVerse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocabVerse";
+			};
+			name = Debug;
+		};
+		0F3A50102A93AC1A0086D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexanderZakharov.VocabVerseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabVerse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocabVerse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3A26082A91070C0086D6C5 /* Build configuration list for PBXProject "VocabVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3A26192A91070D0086D6C5 /* Debug */,
+				0F3A261A2A91070D0086D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3A261B2A91070D0086D6C5 /* Build configuration list for PBXNativeTarget "VocabVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3A261C2A91070D0086D6C5 /* Debug */,
+				0F3A261D2A91070D0086D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3A500E2A93AC1A0086D6C5 /* Build configuration list for PBXNativeTarget "VocabVerseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3A500F2A93AC1A0086D6C5 /* Debug */,
+				0F3A50102A93AC1A0086D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F3A26212A9110790086D6C5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F3A26222A9110790086D6C5 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F3A26212A9110790086D6C5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0FAF48FB2A9B8B35007D6EB8 /* Category.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FAF48FC2A9B8B35007D6EB8 /* Word.xcdatamodel */,
+			);
+			currentVersion = 0FAF48FC2A9B8B35007D6EB8 /* Word.xcdatamodel */;
+			path = Category.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F3A26052A91070C0086D6C5 /* Project object */;
+}
