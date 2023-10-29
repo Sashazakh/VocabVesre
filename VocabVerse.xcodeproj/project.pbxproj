@@ -158,7 +158,7 @@
 			children = (
 				0FF3AAD32AAE040100634E00 /* Features */,
 				0FAF48FA2A9B8B17007D6EB8 /* Storage */,
-				0FAF48F72A9B88ED007D6EB8 /* Dependencies */,
+				0FAF48F72A9B88ED007D6EB8 /* Clients */,
 				0FE760D92A97AA9700413584 /* App */,
 				0F3A26262A91F6F20086D6C5 /* Models */,
 				0F3A26102A91070C0086D6C5 /* VocabVerseApp.swift */,
@@ -273,13 +273,13 @@
 			path = CategoryForm;
 			sourceTree = "<group>";
 		};
-		0FAF48F72A9B88ED007D6EB8 /* Dependencies */ = {
+		0FAF48F72A9B88ED007D6EB8 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
 				0FA1957F2AA4744E00255F3A /* CategoryClient.swift */,
 				0F63D1052ACD37D500152CC3 /* StateClient.swift */,
 			);
-			path = Dependencies;
+			path = Clients;
 			sourceTree = "<group>";
 		};
 		0FAF48FA2A9B8B17007D6EB8 /* Storage */ = {
